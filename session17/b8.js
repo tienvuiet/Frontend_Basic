@@ -1,0 +1,6 @@
+let d1 = prompt("nhập vào ngày, tháng , năm thứ nhất: ")
+let d2 = prompt("nhập vào ngày, tháng , năm thứ hai: ")
+const date1 = new Date(d1)
+const date2 = new Date(d2)
+let chenhlech = (date2 - date1)/(1000*60*60*24)
+alert(chenhlech)

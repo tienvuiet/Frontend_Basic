@@ -1,0 +1,12 @@
+let abs = +prompt("nhập vào giá trị muốn tính abs: ");
+abs=Math.abs(abs);
+alert(abs);
+let ceil = +prompt("nhập vào giá trị muốn tính ceil: ");
+ceil=Math.ceil(ceil);
+alert(ceil);
+let floor = +prompt("nhập vào giá trị muốn tính floor: ");
+floor=Math.floor(floor);
+alert(floor);
+let round = +prompt("nhập vào giá trị muốn tính round: ");
+round=Math.round(round);
+alert(round);
