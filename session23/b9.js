@@ -1,7 +1,6 @@
 let choice;
 let arr = [];
-let n = 0; // Khai báo mặc định để tránh undefined
-
+let n = 0; 
 while (true) {
     choice = +prompt(`
         ==============Menu================
