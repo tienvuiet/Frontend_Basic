@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <h1 id="txt-1">Cái này là text</h1>
+    <button id="btn-hide">Ẩn text</button>
+    <button id="btn-show">Hiện text</button>
+    <script>    
+        document.getElementById("btn-hide").onclick = function(){
+            document.getElementById("txt-1").style.display = "none"  
+        }
+        document.getElementById("btn-show").onclick = function(){
+            document.getElementById("txt-1").style.display = "flex"  
+        }
+    </script>
+</body>
+</html>

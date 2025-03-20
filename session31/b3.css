@@ -1,0 +1,19 @@
+#mau{
+    display: flex;
+    gap: 20px;
+}
+#xanh{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+#do{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+#tim{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+}
