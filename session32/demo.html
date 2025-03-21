@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List K24_PTTT</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .container {
+            max-width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+        input {
+            padding: 5px;
+            width: 70%;
+        }
+        .add-btn {
+            padding: 5px 10px;
+            background-color: green;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .delete-btn {
+            background-color: red;
+            color: white;
+            border: none;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>To-Do List K24_PTTT</h1>
+        <input type="text" id="taskInput" placeholder="Nhập nhiệm vụ...">
+        <button class="add-btn" onclick="addTask()">Thêm</button>
+        <ul id="taskList">
+            <li>hoc dom js <button class="delete-btn" onclick="deleteTask(this)">X</button></li>
+            <li>làm bài tập dom js <button class="delete-btn" onclick="deleteTask(this)">X</button></li>
+        </ul>
+    </div>
+
+    <script>
+        function addTask() {
+            const taskInput = document.getElementById('taskInput');
+            const taskText = taskInput.value.trim();
+            if (taskText === '') {
+                alert('Vui lòng nhập nhiệm vụ!');
+                return;
+            }
+            const taskList = document.getElementById('taskList');
+            const li = document.createElement('li');
+            li.innerHTML = `${taskText} <button class="delete-btn" onclick="deleteTask(this)">X</button>`;
+            taskList.appendChild(li);
+
+            taskInput.value = ''; // Clear the input field
+        }
+        function deleteTask(button) {
+            const confirmDelete = confirm('Bạn có chắc muốn xóa nhiệm vụ này không?');
+            if (confirmDelete) {
+                button.parentElement.remove();
+            }
+        }
+    </script>
+</body>
+</html>

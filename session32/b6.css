@@ -1,0 +1,11 @@
+body{
+    text-align: center;
+}
+.an button:nth-child(1) {
+    padding: 2px 20px;
+    background-color: cadetblue;
+}
+.an button:nth-child(2) {
+    padding: 2px 20px;
+    background-color: violet;
+}
