@@ -1,0 +1,10 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 10px 0;
+}
+#soKyTu{
+    display: flex;
+    justify-content: center;
+}
