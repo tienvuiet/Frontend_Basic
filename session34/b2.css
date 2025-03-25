@@ -1,0 +1,55 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #21243D;
+    font-family: "Roboto", serif;
+}
+h2{
+    text-align: center;
+}
+#nhap{
+    height: 100%;
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    text-align: center;
+}
+#nhap input {
+    padding: 10px 10px;
+}
+#nhap select {
+    padding: 11px 11px;
+}
+#nhap button {
+    padding: 11px 11px;
+    background-color: rgb(15, 139, 139);
+    color: aliceblue;
+    border: 0px solid;
+    border-radius: 4px;
+}
+#hienThi {
+    width: 100%; 
+    display: flex;
+    justify-content: center; 
+}
+#bang {
+    width: 685px; 
+    border-collapse: collapse;
+    text-align: left;
+}
+#tieuDe{
+    background-color: #cdc7c7;
+}
+#tieuDe th{
+    padding: 10px 0px;  
+}
+#noiDung td{
+    padding: 10px 0px;
+    border-bottom: 1px solid ;  
+}
+#action{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./b2.css">
+</head>
+
+<body>
+    <h2>Task Management</h2>
+    <div id="container">
+        <div id="nhap">
+            <input type="text" id="content" placeholder="Content">
+            <input type="date" id="date">
+            <select name="status" id="pending">
+                <option value="">Choose status</option>
+                <option value="pending">Pending</option>
+            </select>
+            <input type="text" placeholder="Username" id="username">
+            <button id="input">Submit</button>
+        </div>
+        <div id="hienThi">
+            <table id="bang">
+                <tr id="tieuDe">
+                    <th>#</th>
+                    <th>Content</th>
+                    <th>Due date</th>
+                    <th>Status</th>
+                    <th>Assigned to</th>
+                    <th>Action</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="./b2.js"></script>
+</body>
+
+</html>
