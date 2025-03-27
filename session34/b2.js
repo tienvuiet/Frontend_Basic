@@ -56,7 +56,6 @@ function deleteTask(index) {
     tasks.splice(index, 1);
     displayTasks();
 }
-
 function editTask(index) {
     const task = tasks[index];
     contentInput.value = task.content;

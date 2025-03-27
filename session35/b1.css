@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    padding: 10px;
+}
+
+#nhap {
+    display: flex;
+    gap: 21px;
+}
+#hienThi1{
+    width: 50%;
+}
+#hienThi{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    padding: 10px 10px;
+    background-color: rgb(165, 164, 164);
+}

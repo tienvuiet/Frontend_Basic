@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: blueviolet;
+    /* width: 70%; */
+    height: 700px;
+    position: relative;
+    
+}
+img{
+   width: 20px;
+   height: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+#trangWed{
+    display: flex;
+}
+#tieuDe{
+    padding: 20px 20px;
+    background-color: rgb(39, 38, 38);
+    color: white;
+    border-radius: 15px;
+}
+#tongWed{
+    display: flex;
+    gap: 20px;
+}
+#trangWed{
+    padding: 33px 35px;
+    background-color: rgb(39, 38, 38);
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    position: relative;
+    margin-top: 20px;
+}
+#trangWed i{
+    position: absolute;
+    top: 7px;
+    right: 6px;
+    font-size: 21px;
+}
+#addBook{
+    width: 50%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 30%;
+    display: none;
+}
+#addBook input{
+    width: 100%;
+    border-radius: 2px;
+    
+}
+#tieuDe2{
+    display: flex;
+    justify-content: space-between;
+    background-color: chartreuse;
+    padding: 10px 10px;
+}
+#nhap{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: aliceblue;
+    padding: 10px 10px;
+}
+#submit{
+    background-color: chartreuse;
+    padding: 5px 6px;
+    border: 0.5px solid;
+}
