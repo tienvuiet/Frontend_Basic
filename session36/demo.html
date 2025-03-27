@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="" id="form">
+        <input name="gender" type="radio" value="0">
+        nam
+        <input name="gender" type="radio" value="1">
+        nữ
+        <input name="gender" type="radio" value="2">
+        khác
+        <button>submit</button>
+    </form>
+    <script src="./b2.js"></script>
+    <script>
+        const formElement = document.querySelector("#form");
+        const genders = document.querySelectorAll("input[name=gender]");
+        genders.forEach((gender) => {
+            //lắng nghe sự kiệ trong từng input
+            gender.addEventListener("change", function (event) {
+                console.log((event.target.value));
+                genderValue = event.target.value;
+            })
+
+        })
+        formElement.addEventListener("submit",function(even){   
+            even.preventDefault();
+            console.log("gender value: ",genderValue);
+            
+        })
+    </script>
+</body>
+
+</html>

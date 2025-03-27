@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    flex-direction: column;
+    background-color: #dedcdc;
+}
+h2{
+    padding-top: 30px;
+}
+img {
+    width: 183px;
+    height: 134px;
+    border-radius: 10px;
+}
+#noiDung1 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+b {
+    font-size: 33px;
+}
+
+#luotThich {
+    display: flex;
+    gap: 10px;
+}
+
+#luotThich i {
+    font-size: 20px;
+    margin-top: 3px;
+    color: #f8312f;
+}
+
+#thich1 {
+    background-color: #28a745;
+    padding: 8px;
+    border-radius: 9px;
+    border: 1px solid;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+}
+#thich3 {
+    background-color: #28a745;
+    padding: 8px;
+    border-radius: 9px;
+    border: 1px solid;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+}
+#thich2 {
+    background-color: #28a745;
+    padding: 8px;
+    border-radius: 9px;
+    border: 1px solid;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+}

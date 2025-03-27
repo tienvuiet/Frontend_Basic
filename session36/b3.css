@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    flex-direction: column;
+    background-color: violet;
+    padding: 30px;
+}
+#color{
+    display: flex;
+    margin-top: 40px;
+    gap: 20px;
+}
+#color div{  
+    padding: 20px;
+    border: 1px solid black;
+}
+#red{
+    background-color: red;
+}
+#blue{
+    background-color: aqua;
+}
+#yellow{
+    background-color: yellow;
+}
+#violet{
+    background-color: violet;
+}
